@@ -8,8 +8,8 @@ public class Main {
      * @param args Массив строковых аргументов
      */
     public static void main(String[] args) {
-        ArrayList<Integer> arrayList = new ArrayList();
-        LinkedList<Integer> linkedList = new LinkedList();
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        LinkedList<Integer> linkedList = new LinkedList<>();
         Timer_for_methods timer=new Timer_for_methods();
         System.out.printf("%25s %15s %15s\n", " ", "ArrayList", "LinkedList");
         System.out.printf("%25s %15s %15s\n", "add(Element)", timer.timer_add(arrayList, 10000), timer.timer_add(linkedList, 10000));
